@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS SandBox</title>
+</head>
+<body>
+    <h1>HTML & CSS SandBox - Datalist</h1>
+
+    <!-- General list select -->
+    <label for="favLanguages">Favorite Programming Languages</label>
+    <input list="languages" name="favLanguages" id="favLanguages">
+    <datalist id="languages">
+        <option value="JavaScript">
+        <option value="Python">
+        <option value="Java">
+        <option value="C#">
+        <option value="C++">
+        <option value="Ruby">
+        <option value="Go">
+    </datalist>
+
+    <br><br>
+    <!-- Time -->
+     <input type="time" list="popularHours">
+    <datalist id="popularHours">
+        <option value="08:00">
+        <option value="09:00">
+        <option value="10:00">
+    </datalist>
+
+    <br><br>
+    <label for="tick">Tip Amount</label>
+    <input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100" step="10">
+    <datalist id="tickmarks">
+        <option value="0">
+        <option value="10">
+        <option value="20">
+        <option value="30">
+        <option value="40">
+        <option value="50">
+        <option value="60">
+        <option value="70">
+        <option value="80">
+        <option value="90">
+        <option value="100">
+    </datalist>
+    <br><br>
+    <!-- Colors -->
+     <label for="color">Pick a Color</label>
+    <input type="color" name="color" id="color" list="colors">
+    <datalist id="colors">
+        <option value="#ff0000">
+        <option value="#00ff00">
+        <option value="#0000ff">
+        <option value="#ffff00">
+        <option value="#ff00ff">
+        <option value="#00ffff">
+    </datalist>
+</body>
+</html>
