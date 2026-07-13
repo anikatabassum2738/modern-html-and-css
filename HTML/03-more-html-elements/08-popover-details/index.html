@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Sandbox</title>
+</head>
+<body>
+    <h1>HTML & CSS Sandbox - Popover and Details</h1>
+    <!-- popover - use for short, contextual information like tooltips -->
+    <button popovertarget="popover-1">Open Popover 1</button>
+    <div popover id="popover-1">This is popover 1</div>
+
+    <button popovertarget="popover-2">Open Popover 2</button>
+    <div popover id="popover-2">
+        <h3>Popover 2</h3>
+        <p>This is popover 2 with more content.</p>
+    </div>
+
+    <!-- details - use for collapsible content like FAQs or additional information -->
+     <details>
+        <summary>Click to expand details</summary>
+        <p>This is the content inside the details element. You can put any HTML content here, including text, images, and other elements.</p>
+     </details>
+</body>
+</html>
