@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Sandbox</title>
+</head>
+<body>
+    <h1>HTML & CSS Sandbox - Image Map</h1>
+
+    <img src="./image1.jpg" alt="" usemap="#imagemap" height="300rem">
+    <map name="imagemap">
+
+        <!-- Computer area -->
+        <area 
+        shape="rect" 
+        coords="34,44,270,150" 
+        href="computer.html" 
+        alt="computer">
+
+        <!-- Phone area -->
+        <area 
+        shape="rect" 
+        coords="200,150,333,250" 
+        href="phone.html" 
+        alt="phone">
+
+        <!-- Glass area -->
+        <area 
+        shape="circle" 
+        coords="366,300,30" 
+        href="glass.html" 
+        alt="glass">
+    </map>
+</body>
+</html>
