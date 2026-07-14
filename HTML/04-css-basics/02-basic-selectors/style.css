@@ -1,0 +1,51 @@
+/* global styles */
+body {
+    font-family: "Arial", "sans-serif";
+}
+
+/* Type Selectors */
+
+/* h2 {
+    color: orange;
+    font-size: 30px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+} */
+
+/* class selectors */
+.sporty {
+    color: red;
+}
+
+.casual {
+    color: blue;
+}
+
+.formal {
+    color: brown;
+}
+
+
+/* id selectors */
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+/* multiple selectors */
+.sporty, .casual, .formal {
+    font-size: 35px;
+}
+
+p {
+    background: red;
+}
+
+/* Descendant Styles */
+#container p {
+    background: lightblue;
+}
