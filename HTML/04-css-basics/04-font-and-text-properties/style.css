@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', 'Trebuchet MS',  'Arial', 'sans-serif';
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+
+    /* font: italic small-caps 700 26px Arial; */
+
+    text-decoration: dotted;
+    text-transform: lowercase;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
