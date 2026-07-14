@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+    /* background color */
+    /* background-color: cornflowerblue; */
+
+    background-image: url('./image1.webp');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* background: linear-gradient(to bottom, lightblue, darkblue);
+    background: linear-gradient(to left, lightblue, darkblue);
+    background: linear-gradient(to bottom right, lightblue, green); */
+}
