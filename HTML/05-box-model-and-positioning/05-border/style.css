@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.box {
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+
+    /* shorthand */
+    border: 2px solid black;
+
+    /* same as above */
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: blueviolet; */
+}
+
+.box-1 {
+    border: none;
+    border-top: solid blue 4px;
+    border-bottom: solid red 4px;
+}
+
