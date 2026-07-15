@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.box {
+   width: 200px;
+   height: 200px;
+   background: lightblue;
+   border: 1px solid black;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+.box-1 {
+    /* can't change the position if it's static */
+    position: static;
+    left: 30px; 
+}
+.box-2 {
+    /* can move it from it's natural state */
+    position: relative;
+    left: 30px;
+}
+.box-3 {
+    /* something to dsiplay all the time */
+    position: fixed;
+    top: 0;
+    right: ;
+    z-index: 2;
+}
+.box-4 {
+    /* nav bars to stick to the top */
+    position: sticky;
+    top: 200px;
+}
+.box-5 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: lightgreen;
+    z-index: 1;
+}
+.box-6 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

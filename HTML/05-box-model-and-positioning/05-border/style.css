@@ -29,3 +29,12 @@ body {
     border-bottom: solid red 4px;
 }
 
+.box-2 {
+    border-radius: 10px;
+    /* border-radius: 50%; */
+}
+
+.box-3 {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
