@@ -1,0 +1,10 @@
+body {
+    font-family: 'Arial';
+}
+
+.flex-item {
+    height: 200px;
+    width: 200px;
+    background: lightblue;
+    border: 1px solid black;
+}
