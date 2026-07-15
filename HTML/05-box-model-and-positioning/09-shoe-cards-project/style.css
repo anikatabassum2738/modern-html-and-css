@@ -5,38 +5,88 @@
 }
 
 body {
-    font-family: 'Poppins';
-    background: lavender;
+    font-family: 'Poppins', 'sans-serif';
+    background: #d9e2e8;
 }
 
 .container {
-    width: 400px;
-    margin: 150px auto;
+    width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
     
 }
 
-.sporty {
+/* card */
+.card {
     background: white;
-    padding: 30px;
-    margin-bottom: 10px;
+    padding: 20px 20px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333
+}
+
+/* Heading Colors */
+.card-sporty h2 {
+    color: #e04553;
+}
+
+.card-casual h2 {
+    color: #0d4ba3;
+}
+
+.card-formal h2 {
+    color: #512b22;
+}
+
+.card a {
+    text-decoration: none;
+    background: #333;
+    color: white;
+    padding: 10px 30px;
     border-radius: 5px;
-}
-
-.sporty h2 {
-    color: #d82f2f;
-    margin-bottom: 15px;
-}
-
-.sporty p {
-    margin-bottom: 10px;
     font-size: 15px;
 }
 
-.sporty button {
-    background: #d82f2f;
-    padding: 10px ;
-    border: none;
-    border-radius: 5px;
+.card a:hover {
+    opacity: 0.9;
+}
+
+/* Link Colors */
+.card-sporty a {
+    background: #e04553;
+}
+
+.card-casual a {
+    background: #0d4ba3;
+}
+
+.card-formal a {
+    background: #512b22;
+}
+
+/* Background Images */
+.card-sporty {
+    background: #fff url('./images/sporty.png') no-repeat center right/300px;
+}
+
+.card-casual {
+    background: #fff url('./images/casual.png') no-repeat center right/300px;
+}
+
+.card-formal {
+    background: #fff url('./images/formal.png') no-repeat center right/300px;
 }
 
 
