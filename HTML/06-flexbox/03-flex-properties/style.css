@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+.flex-container {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.flex-item {
+    background: lightgreen;
+    border: 1px solid black;
+    padding: 20px;
+    /* flex: 1 0 0; */
+    flex: 1;
+    /* width: 200px; */
+
+}
+
+.item-1 {
+    /* flex-shrink: 2; */
+    /* flex-shrink: 0; */
+    /* flex-shrink: 1;  */
+}
+
+.item-2 {
+    /* flex-grow: 1; */
+}
+
+.item-3 {
+    /* flex-grow: 2; */
+    /* flex-basis: 200px;
+    flex-shrink: 0; */
+}
