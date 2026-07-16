@@ -8,8 +8,13 @@ body {
     font-family: 'Poppins';
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
-    width: 1100px;
+    width: 80%;  
+    max-width: 1100px;
     margin: 50px auto;
     padding: 20px;
 }
