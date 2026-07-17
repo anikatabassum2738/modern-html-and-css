@@ -16,7 +16,8 @@ body {
 }
 
 .item {
-    height: 200px;
-    width: calc(500px - 100px);
+    height: calc(100% - 20);
+    min-width: calc(calc(100% / 5));
+    margin: 10px;
     background: coral;
 }
