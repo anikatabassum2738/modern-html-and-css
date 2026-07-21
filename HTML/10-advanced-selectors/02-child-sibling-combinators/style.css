@@ -46,3 +46,10 @@ body {
 }
 
 /* Get all links that are siblings that come after h1 */
+.container h1 ~ a {
+    color: purple;
+}
+
+.container > ul + div {
+    background: lightblue;
+}
