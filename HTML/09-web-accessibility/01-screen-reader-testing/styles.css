@@ -9,6 +9,19 @@ body {
     line-height: 1.6;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
 .header {
     background: #333;
     color: #fff;
@@ -69,7 +82,7 @@ body {
 
 .search button {
     padding: 8px 15px;
-    background-color: #4caf50;
+    background-color: #2b5429;
     color: #fff;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -79,5 +92,5 @@ body {
 }
 
 .search button:hover {
-    background-color: #4caf50;
+    background-color: #37803a;
 }
