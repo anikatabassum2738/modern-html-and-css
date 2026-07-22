@@ -23,3 +23,20 @@ body {
     color: blue;
 } 
 
+a:is(:hover, :focus) {
+    background: pink;
+}
+
+/* low specificity */
+.container :where(h1, h2, p) {
+    color: green;
+} 
+
+/* if container has h1 span then make it red, so everything is red */
+.container:has(h1 span) {
+    color: red;
+}
+
+h1:has(+ h2) {
+    color: green;
+}
