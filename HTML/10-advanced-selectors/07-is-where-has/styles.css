@@ -19,6 +19,7 @@ body {
     color: red;
 }
 
-.container :is(h1) {
-    
-}
+.container :is(h1, h2, p) {
+    color: blue;
+} 
+
