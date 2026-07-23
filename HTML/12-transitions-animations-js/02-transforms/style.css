@@ -12,5 +12,15 @@ body {
 
 .logo {
     max-width: 60%; 
+    transition: all 0.5s;
+}
+
+.logo:hover {
     transform: rotate(90deg);
+    transform: translateX(200px);
+    transform: translateY(-200px);
+    transform: translate(-200px, 200px);
+    transform: skew(30deg);
+    transform: scale(0.5);
+    transform: rotate(90deg) translateX(-200px) scale(0.5);
 }
